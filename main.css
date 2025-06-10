@@ -1,9 +1,13 @@
 
+header li a{
+    cursor: pointer;
+}
 header{
     text-align: center;
 }
 figure{
-    text-align: center;
+    margin-left: 30m;
+    margin-right: 30em;
 }
 ul{
     text-align: center;
