@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interface com Cards</title>
+  <style>
+      body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+  }
+  
+  header {
+    height: 40px;
+    background: linear-gradient(to right, #72CFED, #186C86);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    color: white;
+    font-size: 14px;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 2em;
+    flex-wrap: wrap;
+  }
+  
+  section article {
+    position: relative;
+    width: 230px;
+    height: 299px;
+    padding: 1em;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  article img {
+    width: 60px;
+  margin-bottom: 0.5em;
+  display: block;
+  margin-left: 0;
+  }
+  
+  article p {
+    color: #186C86;
+   
+    margin: 0.5em 0 0.3em;
+    text-align: left;
+  }
+  
+  article p:last-of-type {
+    font-size: 0.85em;
+    color: #333;
+    margin: 0;
+  }
+  
+  article time {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 0.75em;
+    color: #bbb;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+    <figure>
+        <img src="imagens/tabler_3d-cube-sphere.png" alt="config.">
+    </figure>
+   
+  </header>
+
+  <section>
+    <article>
+      <img src="imagens/certificado-online.png" alt="Ícone 1">
+      <p><strong>LOREM IPSUM</strong></p>
+      <p>Morem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <time>20/06</time>
+    </article>
+    <article>
+      <img src="imagens/leitura.png" alt="Ícone 2">
+      <p><strong>LOREM IPSUM</strong></p>
+      <p>Morem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <time>20/06</time>
+    </article>
+    <article>
+      <img src="imagens/biblioteca-online.png" alt="Ícone 3">
+      <p><strong>LOREM IPSUM</strong></p>
+      <p>Morem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <time>20/06</time>
+    </article>
+    <article>
+      <img src="imagens/aprendendo.png" alt="Ícone 4">
+      <p><strong>LOREM IPSUM</strong></p>
+      <p>Morem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <time>20/06</time>
+    </article>
+  </section>
+</body>
+</html>
